@@ -13,7 +13,7 @@ const listRef = document.querySelector('.js-list');
 formRef.addEventListener('input', debounce(inoutHandler, 500));
 
 function inoutHandler(event) {
-  let inputValue = event.target.value;
+  const inputValue = event.target.value;
 
   listRef.innerHTML = '';
 
