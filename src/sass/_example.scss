@@ -1,0 +1,38 @@
+// body {
+//   display: flex;
+//   // justify-content: center;
+// }
+input {
+  font-size: 45px;
+  display: block;
+  margin: 0 auto;
+  width: 680px;
+}
+.js-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+  width: 680px;
+  margin: 0 auto;
+  padding-top: 35px;
+  // justify-content: center;
+}
+.name {
+  font-size: 35px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content__titel {
+  font-weight: 900;
+}
